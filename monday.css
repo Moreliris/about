@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* overflow-x: hidden; */
+    
+}
+.oml{
+    font-size: 15px; 
+    width:89.5%;
+}
+@media ( 0px <= width <= 481px) {
+    .oml{
+        font-size: 20px; 
+        width:100%;
+
+}
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.vv{
+    padding: 0px 130px;
+}
+
+@media ( 0px <= width <= 700px) {
+    .vv{
+        padding: 0px 10px;
+    }
+    
+}
+.hh{
+    background-image: url(/assets/two\ women.jpeg);
+    background-size: cover;
+    /* background-position-x: -60px ; */
+}
+
+.ddy{
+
+    height: 12px;
+  width:    12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  transition: 0.6s ease-in;
+  cursor: pointer;
+}
+
+.ddy:hover{
+    background-color: orangered;
+    border: 1px solid black;
+    /* padding: 0px 10px; */
+    margin: 0px 20px;
+}
+
+h6{
+    font-size: 14px;
+}
+
+.gg{
+    display: none;
+}
+
+.cc:hover{
+   border-bottom: 1px solid black;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.bb{
+    transition: 0.5s ease-in;
+    
+}
+/* .hhh{
+    ;
+} */
+
+.vn{background-color: black;
+   /* padding: 11px 12px 9px 12px; */
+   padding: 15px;
+   font-size: 25px;
+   color: white;
+    border-radius: 50%;
+    border: 10px solid rgb(173, 158, 158);
+}
+
+.bb:hover{
+    
+    background-color:#DB4444;
+    color: white ;
+    transition-duration: 0.5s;
+    
+}
+.bb:hover.vn{
+    color: black;
+    border-radius: 50%;
+    border: 10px solid rgb(100, 20, 20);
+
+}
+.nj{
+    background-color: black;
+}
+
+.vvvv{
+    outline: none;
+    border: none;
+}
